@@ -1,13 +1,10 @@
 package Course;
 
-import java.util.*;
 
-public class Main {
+public class start {
     public static void main(String[] args) {
         System.out.println("I like pizza!");
     }
-    
-    
 }
 
 
@@ -16,6 +13,7 @@ public class Main {
 // close Strings with "" and chars with ''
 
 // scanner.nextLine() vs scanner.next() --> Wont consider anything after space 
+// to understand more look at the --> understandmore.md
 
 // common issue when using scanner --> 
 // you need to clear the buffer : int age = scanner.nextInt(); 
@@ -36,6 +34,9 @@ public class Main {
 
 // Augmented operators 
 // x = x + y  ==>  x += y 
+
+// Logical operators 
+// AND, ||, ! 
 
 // 10 / 3 = 3 cause we are using integer datatype, so use double instead to output 10/3 = 3.3333
 // meaning use double x & double y instead of int x & int y 
